@@ -181,3 +181,567 @@
 
 </body>
 </html>
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #fff6f9;
+    color: #54283c;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* HERO */
+
+.hero {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    background:
+        radial-gradient(
+            circle at 15% 20%,
+            #ffdce8 0%,
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 85% 75%,
+            #f5c4d6 0%,
+            transparent 30%
+        ),
+        linear-gradient(
+            135deg,
+            #fff9fb,
+            #fbdce8
+        );
+
+    position: relative;
+}
+
+
+.small-title {
+    font-size: 11px;
+    letter-spacing: 4px;
+    color: #a75c78;
+}
+
+
+.hero h1 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: clamp(
+        75px,
+        14vw,
+        155px
+    );
+
+    line-height: 0.8;
+
+    font-weight: 600;
+
+    margin: 35px 0;
+
+    color: #4d2639;
+}
+
+
+.hero h1 span {
+    color: #c64e79;
+}
+
+
+.hero p {
+    color: #80566a;
+
+    font-size: 14px;
+
+    letter-spacing: 0.5px;
+}
+
+
+.button {
+    margin-top: 40px;
+
+    padding: 15px 28px;
+
+    border: 1px solid #d88aa6;
+
+    border-radius: 50px;
+
+    text-decoration: none;
+
+    color: #943f62;
+
+    font-size: 11px;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+    transition: 0.3s;
+}
+
+
+.button:hover {
+    background: #ffffff;
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 10px 30px rgba(
+            150,
+            70,
+            100,
+            0.12
+        );
+}
+
+
+/* GENERAL */
+
+section {
+    padding: 120px 8vw;
+}
+
+
+.label {
+    font-size: 10px;
+
+    letter-spacing: 3px;
+
+    color: #b06b84;
+
+    text-transform: uppercase;
+}
+
+
+/* LETTER */
+
+.letter {
+    background: #ffffff;
+
+    text-align: center;
+}
+
+
+.paper {
+    max-width: 780px;
+
+    margin: 45px auto 0;
+
+    padding: 70px;
+
+    background: #fff9fb;
+
+    border: 1px solid #f0d5df;
+
+    box-shadow:
+        0 25px 70px rgba(
+            100,
+            40,
+            65,
+            0.08
+        );
+}
+
+
+.flower {
+    color: #c95079;
+
+    font-size: 30px;
+
+    margin-bottom: 20px;
+}
+
+
+.paper h2 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 45px;
+
+    font-weight: 600;
+
+    margin-bottom: 30px;
+}
+
+
+.paper p {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 24px;
+
+    line-height: 1.5;
+
+    margin: 22px 0;
+}
+
+
+.paper .ps {
+    color: #b34f70;
+
+    font-style: italic;
+
+    margin-top: 35px;
+}
+
+
+.signature {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 35px;
+
+    text-align: right;
+
+    margin-top: 45px;
+
+    color: #bd4e73;
+}
+
+
+/* WISHES */
+
+.wishes {
+    background: #fbe5ee;
+
+    text-align: center;
+}
+
+
+.wishes h2 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: clamp(
+        55px,
+        8vw,
+        95px
+    );
+
+    line-height: 0.9;
+
+    font-weight: 600;
+
+    margin: 30px 0 65px;
+}
+
+
+.wishes h2 i {
+    color: #c64e79;
+}
+
+
+.wish-grid {
+    max-width: 1100px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
+    gap: 18px;
+}
+
+
+.wish-card {
+    background: rgba(
+        255,
+        255,
+        255,
+        0.8
+    );
+
+    border: 1px solid
+        rgba(
+            190,
+            80,
+            120,
+            0.12
+        );
+
+    padding: 35px 25px;
+
+    min-height: 270px;
+
+    text-align: left;
+
+    transition: 0.3s;
+}
+
+
+.wish-card:hover {
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 20px 45px rgba(
+            110,
+            40,
+            70,
+            0.1
+        );
+}
+
+
+.wish-card span {
+    display: block;
+
+    font-size: 28px;
+
+    color: #c94f79;
+
+    margin-bottom: 35px;
+}
+
+
+.wish-card h3 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: 34px;
+
+    margin: 0 0 12px;
+}
+
+
+.wish-card p {
+    color: #79586a;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+/* FINAL */
+
+.final {
+    background: #ffffff;
+
+    text-align: center;
+
+    min-height: 80vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+}
+
+
+.heart {
+    width: 80px;
+
+    height: 80px;
+
+    border-radius: 50%;
+
+    background: #f7c5d8;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    color: #b53f68;
+
+    font-size: 38px;
+
+    margin-bottom: 35px;
+}
+
+
+.final h2 {
+    font-family: "Cormorant Garamond", serif;
+
+    font-size: clamp(
+        55px,
+        8vw,
+        100px
+    );
+
+    line-height: 0.9;
+
+    font-weight: 600;
+
+    margin: 30px 0;
+}
+
+
+.final h2 i {
+    color: #c64e79;
+}
+
+
+.final > p {
+    max-width: 620px;
+
+    color: #765669;
+
+    line-height: 1.9;
+
+    font-size: 14px;
+}
+
+
+.final-signature {
+    font-family: "Cormorant Garamond", serif;
+
+    color: #c64e79;
+
+    font-size: 65px;
+
+    margin-top: 45px;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 30px;
+
+    text-align: center;
+
+    background: #fff6f9;
+
+    color: #a36b80;
+
+    font-size: 9px;
+
+    letter-spacing: 3px;
+}
+
+
+/* PETALS */
+
+.petals span {
+    position: fixed;
+
+    top: -30px;
+
+    width: 9px;
+
+    height: 14px;
+
+    background: #e895b3;
+
+    border-radius:
+        70% 30%
+        70% 30%;
+
+    opacity: 0.35;
+
+    pointer-events: none;
+
+    z-index: 20;
+
+    animation:
+        falling linear infinite;
+}
+
+
+@keyframes falling {
+
+    from {
+        transform:
+            translateY(-30px)
+            rotate(0deg);
+    }
+
+    to {
+        transform:
+            translateY(110vh)
+            translateX(120px)
+            rotate(360deg);
+    }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 800px) {
+
+    section {
+        padding: 80px 20px;
+    }
+
+
+    .wish-grid {
+        grid-template-columns:
+            repeat(2, 1fr);
+    }
+
+
+    .paper {
+        padding: 40px 25px;
+    }
+
+}
+
+
+@media (max-width: 520px) {
+
+    .hero h1 {
+        font-size: 75px;
+    }
+
+
+    .wish-grid {
+        grid-template-columns: 1fr;
+    }
+
+
+    .paper p {
+        font-size: 21px;
+    }
+
+
+    .paper h2 {
+        font-size: 38px;
+    }
+
+
+    .signature {
+        font-size: 30px;
+    }
+
+}const petals = document.querySelector(".petals");
+
+for (let i = 0; i < 20; i++) {
+
+    const petal = document.createElement("span");
+
+    petal.style.left =
+        Math.random() * 100 + "vw";
+
+    petal.style.animationDuration =
+        7 + Math.random() * 8 + "s";
+
+    petal.style.animationDelay =
+        -Math.random() * 10 + "s";
+
+    petal.style.opacity =
+        0.15 + Math.random() * 0.35;
+
+    petal.style.transform =
+        rotate(${Math.random() * 180}deg);
+
+    petals.appendChild(petal);
+}
