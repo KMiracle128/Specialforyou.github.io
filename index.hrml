@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Для Асель ♡</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="petals"></div>
+
+    <header class="hero">
+
+        <div class="small-title">
+            A LITTLE SURPRISE FOR YOU
+        </div>
+
+        <h1>
+            Для тебя,<br>
+            <span>Асель</span>
+        </h1>
+
+        <p>
+            Небольшой сайт, созданный специально для тебя ♡
+        </p>
+
+        <a href="#letter" class="button">
+            открыть письмо
+        </a>
+
+    </header>
+
+
+    <section class="letter" id="letter">
+
+        <div class="label">
+            01 / ПИСЬМО
+        </div>
+
+        <div class="paper">
+
+            <div class="flower">♡</div>
+
+            <h2>
+                Дорогая Асель,
+            </h2>
+
+            <p>
+                После того как я внимательно прочитала твой вишлист,
+                сделанный специально для меня с деталями, и зная тебя
+                как свою близкую подругу, я осознала, что могу сделать
+                специально для тебя сайт своими руками.
+            </p>
+
+            <p>
+                И я бы хотела здесь поделиться своими мыслями и
+                тёплыми пожеланиями.
+            </p>
+
+            <p>
+                Надеюсь, тебе понравится такой вид поздравления
+                и оформление.
+            </p>
+
+            <p class="ps">
+                P.S. Я постаралась сделать всё эстетичным и с душой!
+            </p>
+
+            <div class="signature">
+                Твоя Айзере ♡
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="wishes">
+
+        <div class="label">
+            02 / ПОЖЕЛАНИЯ
+        </div>
+
+        <h2>
+            Для тебя я хочу<br>
+            <i>пожелать...</i>
+        </h2>
+
+
+        <div class="wish-grid">
+
+            <div class="wish-card">
+                <span>♡</span>
+                <h3>Счастья</h3>
+                <p>
+                    Пусть в твоей жизни будет как можно
+                    больше моментов, которые хочется
+                    запомнить навсегда.
+                </p>
+            </div>
+
+
+            <div class="wish-card">
+                <span>✿</span>
+                <h3>Любви</h3>
+                <p>
+                    Пусть рядом всегда будут люди,
+                    с которыми тебе спокойно, тепло
+                    и хорошо.
+                </p>
+            </div>
+
+
+            <div class="wish-card">
+                <span>✦</span>
+                <h3>Мечт</h3>
+                <p>
+                    Пусть все твои желания постепенно
+                    становятся красивыми воспоминаниями.
+                </p>
+            </div>
+
+
+            <div class="wish-card">
+                <span>☼</span>
+                <h3>Вдохновения</h3>
+                <p>
+                    Пусть каждый новый день приносит
+                    идеи, улыбки и желание творить.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="final">
+
+        <div class="heart">
+            ♡
+        </div>
+
+        <div class="label">
+            03 / С ДНЁМ РОЖДЕНИЯ
+        </div>
+
+        <h2>
+            С днём рождения,<br>
+            <i>моя дорогая Асель!</i>
+        </h2>
+
+        <p>
+            Пусть этот новый год твоей жизни принесёт
+            тебе много красивых событий, путешествий,
+            добрых людей, смеха и счастливых моментов.
+        </p>
+
+        <div class="final-signature">
+            Айзере
+        </div>
+
+    </section>
+
+
+    <footer>
+        MADE WITH LOVE · FOR ASEL
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
